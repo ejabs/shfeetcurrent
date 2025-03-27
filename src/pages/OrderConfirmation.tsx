@@ -53,17 +53,20 @@ export default function OrderConfirmation() {
   // Function to send order to backend
   const sendOrderToBackend = async (order: OrderData) => {
     try {
-      const response = await fetch("http://localhost:5000/api/order", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ...order,
-          discount: order.discount || 0,
-          totalAfterDiscount: order.totalAfterDiscount || order.total,
-        }),
-      });
+      const response = await fetch(
+        "https://shfeetbackend.vercel.app/api/order",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            ...order,
+            discount: order.discount || 0,
+            totalAfterDiscount: order.totalAfterDiscount || order.total,
+          }),
+        }
+      );
 
       if (!response.ok) {
         throw new Error("Failed to send order details");

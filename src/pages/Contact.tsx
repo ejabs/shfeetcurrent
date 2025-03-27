@@ -53,16 +53,19 @@ export default function Contact() {
     setIsSending(true);
 
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          ...formData,
-          // Include the token in your API request
-        }),
-      });
+      const response = await fetch(
+        "https://shfeetbackend.vercel.app/api/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({
+            ...formData,
+            // Include the token in your API request
+          }),
+        }
+      );
 
       const data = await response.json();
 
