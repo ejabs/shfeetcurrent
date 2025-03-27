@@ -7,7 +7,7 @@ export default function About() {
   return (
     <>
       <Helmet>
-        <title>About Us | Leatherly</title>
+        <title>About Us | SHFeet</title>
         <meta
           name="description"
           content="Learn about our heritage, craftsmanship, and commitment to quality leather footwear."
@@ -25,8 +25,8 @@ export default function About() {
                 Our Story
               </h1>
               <p className="text-leather-600 text-lg max-w-3xl">
-                Founded in 2018, Leatherly has been dedicated to creating
-                premium handcrafted leather footwear that combines traditional
+                Founded in 2018, SHFeet has been dedicated to creating premium
+                handcrafted leather footwear that combines traditional
                 craftsmanship with contemporary design.
               </p>
             </div>
