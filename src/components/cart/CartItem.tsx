@@ -30,7 +30,7 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
   return (
     <div className="flex flex-col sm:flex-row gap-4 py-6 border-b border-leather-100 animate-fadeIn">
       {/* Product Image */}
-      <div className="w-full sm:w-28 h-28 relative rounded-md overflow-hidden flex-shrink-0">
+      <div className="w-full sm:w-28 aspect-square relative rounded-md overflow-hidden flex-shrink-0">
         <div
           className="absolute inset-0 bg-leather-100 animate-pulse"
           style={{ display: imageLoaded ? "none" : "block" }}
@@ -42,13 +42,15 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
             imageLoaded ? "opacity-100" : "opacity-0"
           }`}
           onLoad={() => setImageLoaded(true)}
+          loading="lazy"
+          decoding="async"
         />
       </div>
 
       {/* Product Info */}
       <div className="flex flex-col flex-grow">
-        <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2">
-          <div>
+        <div className="flex flex-col sm:flex-row items-start justify-between gap-2">
+          <div className="flex-1 min-w-0">
             <Link
               to={`/product/${item.product.id}`}
               className="text-lg font-medium text-leather-800 hover:text-leather-700 line-clamp-1"
@@ -68,11 +70,13 @@ export function CartItem({ item, onQuantityChange, onRemove }: CartItemProps) {
               </div>
             </div>
           </div>
-          <div className="text-right mt-2 sm:mt-0">
-            <div className="text-leather-800 font-medium">
+
+          {/* Improved Price Display */}
+          <div className="flex sm:flex-col items-end sm:items-end justify-between sm:justify-start gap-2 w-full sm:w-auto mt-2 sm:mt-0">
+            <div className="text-leather-800 font-medium text-right">
               ₦{(item.product.price * item.quantity).toLocaleString()}
             </div>
-            <div className="text-sm text-leather-500">
+            <div className="text-sm text-leather-500 text-right">
               ₦{item.product.price.toLocaleString()} each
             </div>
           </div>
