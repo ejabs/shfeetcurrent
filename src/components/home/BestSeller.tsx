@@ -54,12 +54,25 @@ export function BestSellers() {
         ) : (
           <div className="relative">
             <Swiper
-              spaceBetween={20}
-              slidesPerView={1}
+              spaceBetween={16} // Reduced space between slides for mobile
+              slidesPerView={2} // Default to 2 slides on mobile
               breakpoints={{
-                640: { slidesPerView: 2 },
-                1024: { slidesPerView: 3 },
-                1280: { slidesPerView: 4 },
+                640: {
+                  slidesPerView: 2, // Still 2 on small tablets
+                  spaceBetween: 20,
+                },
+                768: {
+                  slidesPerView: 3, // 3 on medium tablets
+                  spaceBetween: 20,
+                },
+                1024: {
+                  slidesPerView: 3, // 3 on laptops
+                  spaceBetween: 24,
+                },
+                1280: {
+                  slidesPerView: 4, // 4 on desktop
+                  spaceBetween: 24,
+                },
               }}
               autoplay={{ delay: 3000, disableOnInteraction: false }}
               navigation={{
@@ -75,7 +88,11 @@ export function BestSellers() {
             >
               {bestSellers.map((product) => (
                 <SwiperSlide key={product.id}>
-                  <ProductCard product={product} />
+                  <div className="px-2">
+                    {" "}
+                    {/* Added padding to each slide */}
+                    <ProductCard product={product} />
+                  </div>
                 </SwiperSlide>
               ))}
             </Swiper>
