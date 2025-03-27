@@ -9,6 +9,7 @@ interface Promo {
 export const promoCodes: Promo[] = [
   { code: "SAVE10", discount: 10 },
   { code: "SAVE15", discount: 15 },
+  { code: "SAVE100", discount: 100 },
   { code: "SAVE5", discount: 5 },
 ];
 
