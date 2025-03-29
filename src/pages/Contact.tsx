@@ -284,9 +284,9 @@ export default function Contact() {
             </div>
 
             {/* Map */}
-            <div className="rounded-lg overflow-hidden border border-leather-100 h-80 bg-leather-50 flex items-center justify-center">
+            {/* <div className="rounded-lg overflow-hidden border border-leather-100 h-80 bg-leather-50 flex items-center justify-center">
               <p className="text-leather-500">Map would be displayed here</p>
-            </div>
+            </div> */}
           </div>
         </main>
 
