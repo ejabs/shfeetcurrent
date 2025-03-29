@@ -5,6 +5,8 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { CartProvider } from "./context/CartContext";
+import ScrollToTopButton from "@/components/ScrollToTopButton"; // Add this import
+import ScrollRestoration from "./components/ScrollRestoration";
 
 // Pages
 import Index from "./pages/Index";
@@ -26,12 +28,14 @@ const App = () => (
     <TooltipProvider>
       <CartProvider>
         <Helmet
-          defaultTitle="Leatherly - Handcrafted Leather Footwear"
-          titleTemplate="%s | Leatherly"
+          defaultTitle="SHFeet - Handcrafted Leather Footwear"
+          titleTemplate="%s | SHFeet"
         />
         <Toaster />
         <Sonner />
         <BrowserRouter>
+          {/* Scroll restoration to handle page navigation scroll positions */}
+          <ScrollRestoration />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/products" element={<Products />} />
@@ -45,6 +49,8 @@ const App = () => (
             <Route path="/faqs" element={<Faqs />}></Route>
             <Route path="*" element={<NotFound />} />
           </Routes>
+          {/* Add the ScrollToTopButton here - will appear on all pages */}
+          <ScrollToTopButton />
         </BrowserRouter>
       </CartProvider>
     </TooltipProvider>

@@ -67,8 +67,8 @@ export function CartSummary({ items, className }: CartSummaryProps) {
 
     const totalItems = items.reduce((sum, item) => sum + item.quantity, 0);
     return totalItems < 4
-      ? `₦${deliveryFee.toLocaleString()} (Less than 4 items)`
-      : `₦${deliveryFee.toLocaleString()} (4+ items)`;
+      ? `₦${deliveryFee.toLocaleString()} ` //less than 4 items
+      : `₦${deliveryFee.toLocaleString()} `; // more than 4 items
   };
 
   return (

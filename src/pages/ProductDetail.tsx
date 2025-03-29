@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { useParams, useNavigate } from "react-router-dom";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
 import { ShoppingBag } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -83,6 +83,15 @@ export default function ProductDetail() {
       <div className="flex min-h-screen flex-col">
         <Navbar />
         <main className="container mx-auto px-4 md:px-6 py-12 my-11 space-y-8">
+          <div className="mb-6 flex">
+            <Link
+              to="/products"
+              className="px-2 py-2 rounded-lg tracking-tighter bg-white/10 backdrop-blur-md text-black text-sm font-medium shadow-md transition-all hover:bg-white/20 hover:shadow-lg border border-black/20"
+            >
+              ← Back
+            </Link>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 my-10">
             {/* Product Images */}
             <div>
