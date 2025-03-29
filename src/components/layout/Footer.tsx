@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
-import { Facebook, Instagram, Twitter, Mail } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
+import { Facebook, Instagram, Twitter, Mail, Youtube } from "lucide-react";
+import { FaWhatsapp, FaTiktok } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -37,7 +37,7 @@ export function Footer() {
             </p>
             <div className="flex space-x-4">
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/share/1KJu6qddcS/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-leather-500 hover:text-leather-800 transition-colors"
@@ -47,7 +47,7 @@ export function Footer() {
               </a>
 
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/sh_feet_official?igsh=emUxMW5xMGlvNXAw"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-leather-500 hover:text-leather-800 transition-colors"
@@ -57,17 +57,17 @@ export function Footer() {
               </a>
 
               <a
-                href="https://twitter.com"
+                href="https://www.tiktok.com/@shfeetofficial?_t=ZM-8v5z3avfjPy&_r=1" // Replace with your actual TikTok URL
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-leather-500 hover:text-leather-800 transition-colors"
-                aria-label="Twitter"
+                aria-label="TikTok"
               >
-                <Twitter className="h-5 w-5" />
+                <FaTiktok className="h-5 w-5" />
               </a>
 
               <a
-                href="https://wa.me/yourphonenumber" // Replace with your actual WhatsApp number
+                href="https://wa.me/2348133267721" // Replace with your actual WhatsApp number
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-leather-500 hover:text-leather-800 transition-colors"
@@ -77,7 +77,7 @@ export function Footer() {
               </a>
 
               <a
-                href="mailto:your@email.com" // Replace with your actual email
+                href="mailto:shfeet.com.ng@gmail.com" // Replace with your actual email
                 className="text-leather-500 hover:text-leather-800 transition-colors"
                 aria-label="Email"
               >

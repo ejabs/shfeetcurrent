@@ -7,6 +7,10 @@ import { Textarea } from "@/components/ui/textarea";
 import { useToast } from "@/components/ui/use-toast";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
+import { Facebook, Instagram, Twitter, Youtube } from "lucide-react";
+import { FaWhatsapp, FaTiktok } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
+
 import ReCAPTCHA from "react-google-recaptcha";
 
 export default function Contact() {
@@ -178,6 +182,56 @@ export default function Contact() {
                         </p>
                       </div>
                     </div>
+                  </div>
+
+                  <div className="flex space-x-4 mt-8">
+                    <a
+                      href="https://www.facebook.com/share/1KJu6qddcS/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-leather-500 hover:text-leather-800 transition-colors"
+                      aria-label="Facebook"
+                    >
+                      <Facebook className="h-5 w-5" />
+                    </a>
+
+                    <a
+                      href="https://www.instagram.com/sh_feet_official?igsh=emUxMW5xMGlvNXAw"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-leather-500 hover:text-leather-800 transition-colors"
+                      aria-label="Instagram"
+                    >
+                      <Instagram className="h-5 w-5" />
+                    </a>
+
+                    <a
+                      href="https://www.tiktok.com/@shfeetofficial?_t=ZM-8v5z3avfjPy&_r=1" // Replace with your actual TikTok URL
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-leather-500 hover:text-leather-800 transition-colors"
+                      aria-label="TikTok"
+                    >
+                      <FaTiktok className="h-5 w-5" />
+                    </a>
+
+                    <a
+                      href="https://wa.me/2348133267721" // Replace with your actual WhatsApp number
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-leather-500 hover:text-leather-800 transition-colors"
+                      aria-label="WhatsApp"
+                    >
+                      <FaWhatsapp className="h-5 w-5" />
+                    </a>
+
+                    <a
+                      href="mailto:shfeet.com.ng@gmail.com" // Replace with your actual email
+                      className="text-leather-500 hover:text-leather-800 transition-colors"
+                      aria-label="Email"
+                    >
+                      <MdEmail className="h-5 w-5" />
+                    </a>
                   </div>
                 </div>
               </div>
