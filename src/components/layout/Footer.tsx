@@ -167,14 +167,14 @@ export function Footer() {
 
         <div className="border-t border-leather-100 mt-12 pt-8 text-center text-leather-500 text-sm">
           <p>© {new Date().getFullYear()} SHFeet. All rights reserved.</p>
-          <div className="mt-2 space-x-4">
+          {/* <div className="mt-2 space-x-4">
             <Link to="/privacy-policy" className="hover:text-leather-700">
               Privacy Policy
             </Link>
             <Link to="/terms-of-service" className="hover:text-leather-700">
               Terms of Service
             </Link>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>
