@@ -2,7 +2,7 @@ export const productsData = [
   {
     id: "1",
     name: "OPURUICHE",
-    price: 15000,
+    price: 15500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -25,7 +25,7 @@ export const productsData = [
   {
     id: "2",
     name: "ULOMA",
-    price: 10000,
+    price: 10500,
     description: "Elegant and comfortable slippers perfect for any occasion.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742770644/6_aamiwx.jpg",
@@ -47,7 +47,7 @@ export const productsData = [
   //   {
   //     id: "3",
   //     name: "Children's Casual Shoes",
-  //     price: 8500,
+  //     price: 9000,
   //     description: "Comfortable and durable shoes designed for active children.",
   //     images: [
   //       "https://images.unsplash.com/photo-1555058326-e0d8534c9d3e?q=80&w=800",
@@ -69,7 +69,7 @@ export const productsData = [
   {
     id: "4",
     name: "ENYI",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -93,7 +93,7 @@ export const productsData = [
   {
     id: "5",
     name: "EZEBUDE",
-    price: 40000,
+    price: 40500,
     description: "Oxford with Sass",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1732801132/BeauToday_Chunky_Brogue_Shoes_for_Men_fkp79y.jpg",
@@ -115,7 +115,7 @@ export const productsData = [
   {
     id: "6",
     name: "IJELE",
-    price: 40000,
+    price: 40500,
     description: "Loafers with Fringes",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415400/14_jyf4vd.jpg",
@@ -137,7 +137,7 @@ export const productsData = [
   {
     id: "7",
     name: "DAKWASIENYI",
-    price: 40000,
+    price: 40500,
     description: "Basket print Brogues",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415400/13_hlaugz.jpg",
@@ -159,7 +159,7 @@ export const productsData = [
   {
     id: "8",
     name: "AKURIENNE",
-    price: 25000,
+    price: 25500,
     description: "Double strap Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415410/5_wwodcj.jpg",
@@ -181,7 +181,7 @@ export const productsData = [
   {
     id: "9",
     name: "OGBUEFI",
-    price: 30000,
+    price: 30500,
     description: "D-ring Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415406/10_nrat3e.jpg",
@@ -203,7 +203,7 @@ export const productsData = [
   {
     id: "10",
     name: "OCHIAGHA",
-    price: 30000,
+    price: 30500,
     description: "High sole Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415407/9_bdtilp.jpg",
@@ -225,7 +225,7 @@ export const productsData = [
   {
     id: "11",
     name: "ODOGWU",
-    price: 30000,
+    price: 30500,
     description: "Suede Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415407/8_draprp.jpg",
@@ -247,7 +247,7 @@ export const productsData = [
   {
     id: "12",
     name: "AKUNATU",
-    price: 18000,
+    price: 18500,
     description: "Scissors cut Thong Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415410/7_mg3pns.jpg",
@@ -269,7 +269,7 @@ export const productsData = [
   {
     id: "13",
     name: "OJEMBA",
-    price: 18000,
+    price: 18500,
     description: "Basket print X-Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415406/2_zazp1t.jpg",
@@ -291,7 +291,7 @@ export const productsData = [
   {
     id: "14",
     name: "IKENGA",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock with Velcro",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415406/3_fxiqom.jpg",
@@ -313,7 +313,7 @@ export const productsData = [
   {
     id: "15",
     name: "CHINYELUGO",
-    price: 25000,
+    price: 25500,
     description: "Double strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415404/1_jjomu6.jpg",
@@ -335,7 +335,7 @@ export const productsData = [
   {
     id: "16",
     name: "DIKE",
-    price: 18000,
+    price: 18500,
     description: "Big toe Buckle Strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415401/6_wiwopn.jpg",
@@ -357,7 +357,7 @@ export const productsData = [
   {
     id: "17",
     name: "EBUBEAGU",
-    price: 30000,
+    price: 30500,
     description: "X-Strap Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415401/11_enau0u.jpg",
@@ -379,7 +379,7 @@ export const productsData = [
   {
     id: "18",
     name: "ICHAKA IKE",
-    price: 30000,
+    price: 30500,
     description: "X-Strap Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415401/12_odugfl.jpg",
@@ -401,7 +401,7 @@ export const productsData = [
   {
     id: "19",
     name: "AKAJIAKU",
-    price: 18000,
+    price: 18500,
     description: "T-H Strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415402/4_xtpqqp.jpg",
@@ -426,7 +426,7 @@ export const productsData = [
   {
     id: "20",
     name: "ODIBEZA",
-    price: 20000,
+    price: 20500,
     description: "Beaded Halfshoe",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422510/6_clkms1.jpg",
@@ -449,7 +449,7 @@ export const productsData = [
   {
     id: "21",
     name: "AKWA NWA",
-    price: 10000,
+    price: 10500,
     description: "Suede open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422509/11_d57r2y.jpg",
@@ -472,7 +472,7 @@ export const productsData = [
   {
     id: "22",
     name: "ASAMMA",
-    price: 15000,
+    price: 15500,
     description: "Denim X-Strap",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422509/12_rumqfa.jpg",
@@ -496,7 +496,7 @@ export const productsData = [
   {
     id: "23",
     name: "EGO OYIBO",
-    price: 25000,
+    price: 25500,
     description: "Open toe Birken Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422505/13_rszfsi.jpg",
@@ -520,7 +520,7 @@ export const productsData = [
   {
     id: "24",
     name: "MKPULU MMA",
-    price: 10000,
+    price: 10500,
     description: "Leopard print Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422504/14_dpbwas.jpg",
@@ -544,7 +544,7 @@ export const productsData = [
   {
     id: "25",
     name: "MANARIA",
-    price: 10000,
+    price: 10500,
     description: "Bow strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422504/16_lghay0.jpg",
@@ -568,7 +568,7 @@ export const productsData = [
   {
     id: "26",
     name: "MKPULU MMA 2.0",
-    price: 10000,
+    price: 10500,
     description: "Croc skin Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422500/17_klhj4a.jpg",
@@ -592,7 +592,7 @@ export const productsData = [
   {
     id: "27",
     name: "UGEGBE",
-    price: 10000,
+    price: 10500,
     description: "Shiny Croc print Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422499/18_d1zjta.jpg",
@@ -616,7 +616,7 @@ export const productsData = [
   {
     id: "28",
     name: "MMIRIDOROEDO",
-    price: 10000,
+    price: 10500,
     description: "Embellished Open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422499/10_fiwnlx.jpg",
@@ -640,7 +640,7 @@ export const productsData = [
   {
     id: "29",
     name: "IJEAWELE",
-    price: 12000,
+    price: 12500,
     description: "Double X-Strap Sandals",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422495/9_m6dqq3.jpg",
@@ -664,7 +664,7 @@ export const productsData = [
   {
     id: 30,
     name: "UGO OMA",
-    price: 10000,
+    price: 10500,
     description: "Inverted C curve Slides",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422494/2_w5itpv.jpg",
@@ -688,7 +688,7 @@ export const productsData = [
   {
     id: 31,
     name: "AKUABATA",
-    price: 10000,
+    price: 10500,
     description: "Double buckle strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422493/8_aj65lp.jpg",
@@ -712,7 +712,7 @@ export const productsData = [
   {
     id: 32,
     name: "EGODI",
-    price: 15000,
+    price: 15500,
     description: "Scissors cut Platform",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/15_u6c27r.jpg",
@@ -736,7 +736,7 @@ export const productsData = [
   {
     id: 33,
     name: "URUNDU",
-    price: 10000,
+    price: 10500,
     description: "Plain & Pattern Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/19_ut9rue.jpg",
@@ -760,7 +760,7 @@ export const productsData = [
   {
     id: 34,
     name: "AKWA UGO",
-    price: 12000,
+    price: 12500,
     description: "T-Strap Sandals",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/7_dwunz8.jpg",
@@ -784,7 +784,7 @@ export const productsData = [
   {
     id: 35,
     name: "ONODU UGO",
-    price: 10000,
+    price: 10500,
     description: "Inverted rope Slides",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/3_zakxvc.jpg",
@@ -808,7 +808,7 @@ export const productsData = [
   {
     id: 36,
     name: "OPURUICHE",
-    price: 15000,
+    price: 15500,
     description: "Bow Platform Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/1_qkcwxe.jpg",
@@ -832,7 +832,7 @@ export const productsData = [
   {
     id: 37,
     name: "IFEDIMMA",
-    price: 10000,
+    price: 10500,
     description: "Knotted flap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/20_el1cik.jpg",
@@ -856,7 +856,7 @@ export const productsData = [
   {
     id: 38,
     name: "MMIRIMMA",
-    price: 10000,
+    price: 10500,
     description: "X-Strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422484/4_hc4xmp.jpg",
@@ -880,7 +880,7 @@ export const productsData = [
   {
     id: 39,
     name: "OCHEZE",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422484/5_bg2qsc.jpg",
@@ -907,7 +907,7 @@ export const productsData = [
   {
     id: "40",
     name: "UGONNA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/1_n8jsnr.jpg",
@@ -932,7 +932,7 @@ export const productsData = [
   {
     id: "41",
     name: "ADAMMA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/2_fuoegf.jpg",
@@ -957,7 +957,7 @@ export const productsData = [
   {
     id: "42",
     name: "OKEOMA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/3_gk6y1q.jpg",
@@ -982,7 +982,7 @@ export const productsData = [
   {
     id: "43",
     name: "ADAEZE",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/4_ot73eu.jpg",
@@ -1007,7 +1007,7 @@ export const productsData = [
   {
     id: "44",
     name: "IJEOMA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/5_azyczq.jpg",
@@ -1032,7 +1032,7 @@ export const productsData = [
   {
     id: "45",
     name: "IRUOMA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/6_ubvxz6.jpg",
@@ -1057,7 +1057,7 @@ export const productsData = [
   {
     id: "46",
     name: "IKENNA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650110/7_bmcdmv.jpg",
@@ -1082,7 +1082,7 @@ export const productsData = [
   {
     id: "47",
     name: "ONAEDO",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650110/8_nkx8xc.jpg",
@@ -1107,7 +1107,7 @@ export const productsData = [
   {
     id: "48",
     name: "NWAMAKA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650111/9_xuai6k.jpg",
@@ -1132,7 +1132,7 @@ export const productsData = [
   {
     id: "49",
     name: "OBINNA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650121/10_hlxelc.jpg",
@@ -1157,7 +1157,7 @@ export const productsData = [
   {
     id: "50",
     name: "IKEMEFUNA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/11_njrli8.jpg",
@@ -1182,7 +1182,7 @@ export const productsData = [
   {
     id: "51",
     name: "NNAMDI",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/12_zkdwqs.jpg",
@@ -1207,7 +1207,7 @@ export const productsData = [
   {
     id: "52",
     name: "UCHENNA",
-    price: 8500,
+    price: 9000,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/13_czhkzs.jpg",
@@ -1234,7 +1234,7 @@ export const productsData = [
   {
     id: "53",
     name: "AGU",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1258,7 +1258,7 @@ export const productsData = [
   {
     id: "54",
     name: "UGO",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1282,7 +1282,7 @@ export const productsData = [
   {
     id: "55",
     name: "ORJI",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1306,7 +1306,7 @@ export const productsData = [
   {
     id: "56",
     name: "AKUVUE",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1330,7 +1330,7 @@ export const productsData = [
   {
     id: "57",
     name: "ONOCHIE",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1354,7 +1354,7 @@ export const productsData = [
   {
     id: "58",
     name: "AKUNNA",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1378,7 +1378,7 @@ export const productsData = [
   {
     id: "59",
     name: "DAZUE",
-    price: 30000,
+    price: 30500,
     description:
       "Premium leather loafers with cushioned insoles for maximum comfort.",
     images: [
@@ -1404,7 +1404,7 @@ export const productsData = [
   {
     id: "60",
     name: "NJEM",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/1_uaili9.jpg",
@@ -1427,7 +1427,7 @@ export const productsData = [
   {
     id: "61",
     name: "AKULUNO",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/2_nhlzy6.jpg",
@@ -1450,7 +1450,7 @@ export const productsData = [
   {
     id: "62",
     name: "OKWUDILI",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/3_jnw1bw.jpg",
@@ -1473,7 +1473,7 @@ export const productsData = [
   {
     id: "63",
     name: "EZUDO",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/4_lc0hhg.jpg",
@@ -1496,7 +1496,7 @@ export const productsData = [
   {
     id: "64",
     name: "MMADUKA",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/5_uqm5tt.jpg",
@@ -1519,7 +1519,7 @@ export const productsData = [
   {
     id: "65",
     name: "AZUBIKE",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/6_xoyblb.jpg",
@@ -1542,7 +1542,7 @@ export const productsData = [
   {
     id: "66",
     name: "ONYEOGAZILI",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/7_xexbtt.jpg",
@@ -1565,7 +1565,7 @@ export const productsData = [
   {
     id: "67",
     name: "UDUAKOMMIRI",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/8_s9hawp.jpg",
@@ -1588,7 +1588,7 @@ export const productsData = [
   {
     id: "68",
     name: "ONOCHIE",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/9_zrzejg.jpg",
@@ -1611,7 +1611,7 @@ export const productsData = [
   {
     id: "69",
     name: "MMIRIDOROEDO",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/10_cnjrnm.jpg",
@@ -1634,7 +1634,7 @@ export const productsData = [
   {
     id: "70",
     name: "OBIM",
-    price: 25000,
+    price: 25500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/11_nyojbt.jpg",
@@ -1658,7 +1658,7 @@ export const productsData = [
   {
     id: "71",
     name: "URUNDU",
-    price: 15000,
+    price: 15500,
     description: "durable soles and comfortable fit.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742770644/4_qpdpbz.jpg",
@@ -1681,7 +1681,7 @@ export const productsData = [
   {
     id: "72",
     name: "OLAMMA",
-    price: 15000,
+    price: 15500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -1705,7 +1705,7 @@ export const productsData = [
   {
     id: "73",
     name: "EZINNE",
-    price: 15000,
+    price: 15500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -1729,7 +1729,7 @@ export const productsData = [
   {
     id: 74,
     name: "NKEM",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097622/2_g4qhd7.jpg",
@@ -1754,7 +1754,7 @@ export const productsData = [
   {
     id: 75,
     name: "NCHETA",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097622/5_au1mzn.jpg",
@@ -1779,7 +1779,7 @@ export const productsData = [
   {
     id: 77,
     name: "NCHETA 2.0",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097621/4_j7pfxd.jpg",
@@ -1804,7 +1804,7 @@ export const productsData = [
   {
     id: 78,
     name: "NGOZIKA",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097620/6_ytdltv.jpg",
@@ -1829,7 +1829,7 @@ export const productsData = [
   {
     id: 79,
     name: "UDODI",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097619/3_r7kqjc.jpg",
@@ -1854,7 +1854,7 @@ export const productsData = [
   {
     id: 80,
     name: "OBIANUJUAKU",
-    price: 10000,
+    price: 10500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097619/1_wtmzlz.jpg",
@@ -1880,7 +1880,7 @@ export const productsData = [
   {
     id: 81,
     name: "OBIM 2.0",
-    price: 15000,
+    price: 15500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097621/m2_uxx7g8.jpg",
@@ -1903,7 +1903,7 @@ export const productsData = [
   {
     id: 82,
     name: "IKEBUDE",
-    price: 15000,
+    price: 15500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097620/m1_lhpbl6.jpg",
