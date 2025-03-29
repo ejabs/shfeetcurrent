@@ -126,11 +126,13 @@ export default function ProductDetail() {
               {/* Size Selection */}
               <div className="mt-4">
                 <label className="text-sm font-medium">Size:</label>
-                <div className="flex gap-2 mt-2">
+                <div className="flex flex-wrap gap-2 mt-2">
+                  {" "}
+                  {/* Added flex-wrap */}
                   {product.sizes.map((size) => (
                     <button
                       key={size}
-                      className={`px-3 py-1 border rounded ${
+                      className={`px-3 py-1 border rounded flex-shrink-0 ${
                         selectedSize === size
                           ? "bg-black text-white"
                           : "bg-white text-black"
