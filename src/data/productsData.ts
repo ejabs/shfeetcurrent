@@ -25,7 +25,7 @@ export const productsData = [
   {
     id: "2",
     name: "ULOMA",
-    price: 10500,
+    price: 12500,
     description: "Elegant and comfortable slippers perfect for any occasion.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742770644/6_aamiwx.jpg",
@@ -449,7 +449,7 @@ export const productsData = [
   {
     id: "21",
     name: "AKWA NWA",
-    price: 10500,
+    price: 12500,
     description: "Suede open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422509/11_d57r2y.jpg",
@@ -520,7 +520,7 @@ export const productsData = [
   {
     id: "24",
     name: "MKPULU MMA",
-    price: 10500,
+    price: 12500,
     description: "Leopard print Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422504/14_dpbwas.jpg",
@@ -544,7 +544,7 @@ export const productsData = [
   {
     id: "25",
     name: "MANARIA",
-    price: 10500,
+    price: 12500,
     description: "Bow strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422504/16_lghay0.jpg",
@@ -568,7 +568,7 @@ export const productsData = [
   {
     id: "26",
     name: "MKPULU MMA 2.0",
-    price: 10500,
+    price: 12500,
     description: "Croc skin Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422500/17_klhj4a.jpg",
@@ -592,7 +592,7 @@ export const productsData = [
   {
     id: "27",
     name: "UGEGBE",
-    price: 10500,
+    price: 12500,
     description: "Shiny Croc print Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422499/18_d1zjta.jpg",
@@ -616,7 +616,7 @@ export const productsData = [
   {
     id: "28",
     name: "MMIRIDOROEDO",
-    price: 10500,
+    price: 12500,
     description: "Embellished Open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422499/10_fiwnlx.jpg",
@@ -664,7 +664,7 @@ export const productsData = [
   {
     id: 30,
     name: "UGO OMA",
-    price: 10500,
+    price: 12500,
     description: "Inverted C curve Slides",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422494/2_w5itpv.jpg",
@@ -688,7 +688,7 @@ export const productsData = [
   {
     id: 31,
     name: "AKUABATA",
-    price: 10500,
+    price: 12500,
     description: "Double buckle strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422493/8_aj65lp.jpg",
@@ -736,7 +736,7 @@ export const productsData = [
   {
     id: 33,
     name: "URUNDU",
-    price: 10500,
+    price: 12500,
     description: "Plain & Pattern Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/19_ut9rue.jpg",
@@ -784,7 +784,7 @@ export const productsData = [
   {
     id: 35,
     name: "ONODU UGO",
-    price: 10500,
+    price: 12500,
     description: "Inverted rope Slides",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/3_zakxvc.jpg",
@@ -832,7 +832,7 @@ export const productsData = [
   {
     id: 37,
     name: "IFEDIMMA",
-    price: 10500,
+    price: 12500,
     description: "Knotted flap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/20_el1cik.jpg",
@@ -856,7 +856,7 @@ export const productsData = [
   {
     id: 38,
     name: "MMIRIMMA",
-    price: 10500,
+    price: 12500,
     description: "X-Strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422484/4_hc4xmp.jpg",
@@ -880,7 +880,7 @@ export const productsData = [
   {
     id: 39,
     name: "OCHEZE",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422484/5_bg2qsc.jpg",
@@ -1729,7 +1729,7 @@ export const productsData = [
   {
     id: 74,
     name: "NKEM",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097622/2_g4qhd7.jpg",
@@ -1754,7 +1754,7 @@ export const productsData = [
   {
     id: 75,
     name: "NCHETA",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097622/5_au1mzn.jpg",
@@ -1779,7 +1779,7 @@ export const productsData = [
   {
     id: 77,
     name: "NCHETA 2.0",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097621/4_j7pfxd.jpg",
@@ -1804,7 +1804,7 @@ export const productsData = [
   {
     id: 78,
     name: "NGOZIKA",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097620/6_ytdltv.jpg",
@@ -1829,7 +1829,7 @@ export const productsData = [
   {
     id: 79,
     name: "UDODI",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097619/3_r7kqjc.jpg",
@@ -1854,7 +1854,7 @@ export const productsData = [
   {
     id: 80,
     name: "OBIANUJUAKU",
-    price: 10500,
+    price: 12500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097619/1_wtmzlz.jpg",
