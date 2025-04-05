@@ -10,7 +10,7 @@ export function Hero() {
 
   const placeholderImages = [
     "https://res.cloudinary.com/daxeovezx/image/upload/v1735557211/hero_replacement-min_ldivnm.jpg",
-    "https://res.cloudinary.com/daxeovezx/video/upload/v1743027526/vid_ohd7jp.mp4",
+    "https://res.cloudinary.com/daxeovezx/video/upload/v1743850545/herrooo_ffhvre.mp4",
   ];
 
   // Preload images and set up autoplay
