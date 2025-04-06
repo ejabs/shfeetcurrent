@@ -6,11 +6,24 @@ import { ChevronRight } from "lucide-react";
 export function Hero() {
   const [currentSlide, setCurrentSlide] = useState(0);
   const [imagesLoaded, setImagesLoaded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+  const [videoError, setVideoError] = useState(false);
   const videoRef = useRef(null);
+
+  useEffect(() => {
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+    checkMobile();
+    window.addEventListener("resize", checkMobile);
+    return () => window.removeEventListener("resize", checkMobile);
+  }, []);
 
   const placeholderImages = [
     "https://res.cloudinary.com/daxeovezx/image/upload/v1735557211/hero_replacement-min_ldivnm.jpg",
-    "https://res.cloudinary.com/daxeovezx/video/upload/v1743850545/herrooo_ffhvre.mp4",
+    isMobile
+      ? "https://res.cloudinary.com/daxeovezx/video/upload/v1743930234/hero2_y0onti.mp4"
+      : "https://res.cloudinary.com/daxeovezx/video/upload/v1743850545/herrooo_ffhvre.mp4",
   ];
 
   // Preload images and set up autoplay
@@ -20,7 +33,7 @@ export function Hero() {
         const promises = placeholderImages.map((src) => {
           return new Promise((resolve, reject) => {
             if (src.endsWith(".mp4")) {
-              resolve(); // No need to preload videos
+              resolve();
             } else {
               const img = new Image();
               img.src = src;
@@ -39,9 +52,9 @@ export function Hero() {
     };
 
     preloadImages();
-  }, []);
+  }, [isMobile]);
 
-  // Autoplay slides (waits for video to finish before switching)
+  // Autoplay slides
   useEffect(() => {
     if (!imagesLoaded) return;
 
@@ -49,26 +62,30 @@ export function Hero() {
     const switchSlide = () => {
       if (
         placeholderImages[currentSlide].endsWith(".mp4") &&
-        videoRef.current
+        videoRef.current &&
+        !videoError
       ) {
-        videoRef.current.play();
+        videoRef.current.play().catch((e) => {
+          console.error("Video play failed:", e);
+          setVideoError(true);
+        });
         videoRef.current.onended = () => {
           setCurrentSlide((prev) => (prev + 1) % placeholderImages.length);
         };
       } else {
         interval = setTimeout(() => {
           setCurrentSlide((prev) => (prev + 1) % placeholderImages.length);
-        }, 5000); // 5 seconds for images
+        }, 5000);
       }
     };
 
     switchSlide();
 
     return () => clearTimeout(interval);
-  }, [currentSlide, imagesLoaded]);
+  }, [currentSlide, imagesLoaded, videoError]);
 
   return (
-    <section className="relative h-screen max-h-[850px] overflow-hidden bg-leather-100">
+    <section className="relative h-[70vh] md:h-screen md:max-h-[850px] overflow-hidden bg-leather-100">
       {/* Slide Images */}
       <div className="absolute inset-0">
         {placeholderImages.map((src, index) => (
@@ -80,18 +97,21 @@ export function Hero() {
           >
             <div className="absolute inset-0 bg-black/40 z-10" />
 
-            {/* Check if the source is a video */}
-            {src.endsWith(".mp4") ? (
+            {src.endsWith(".mp4") && !videoError ? (
               <video
                 ref={videoRef}
                 src={src}
                 muted
                 playsInline
-                className="h-full w-full object-cover object-center"
+                disablePictureInPicture
+                disableRemotePlayback
+                preload="metadata"
+                onError={() => setVideoError(true)}
+                className="h-full w-full object-cover md:object-center"
               />
             ) : (
               <img
-                src={src}
+                src={src.endsWith(".mp4") ? placeholderImages[0] : src}
                 alt={`Slide ${index + 1}`}
                 className="h-full w-full object-cover object-center"
               />
@@ -104,10 +124,10 @@ export function Hero() {
       <div className="relative z-20 h-full flex items-center">
         <div className="container mx-auto px-4 md:px-6">
           <div className="max-w-2xl animate-slideUp">
-            <h1 className="text-4xl md:text-5xl lg:text-8xl font-medium text-white mb-4">
+            <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-8xl font-medium text-white mb-4">
               HANDMADE LEATHER FOOTWEAR
             </h1>
-            <p className="text-lg md:text-xl text-white/90 mb-8">
+            <p className="text-base sm:text-lg md:text-xl text-white/90 mb-8">
               Exceptional quality and timeless design for discerning customers.
             </p>
             <div className="flex flex-wrap gap-4">
