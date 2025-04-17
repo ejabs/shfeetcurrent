@@ -47,7 +47,7 @@ export const productsData = [
   //   {
   //     id: "3",
   //     name: "Children's Casual Shoes",
-  //     price: 9000,
+  //     price: 9500,
   //     description: "Comfortable and durable shoes designed for active children.",
   //     images: [
   //       "https://images.unsplash.com/photo-1555058326-e0d8534c9d3e?q=80&w=800",
@@ -159,7 +159,7 @@ export const productsData = [
   {
     id: "8",
     name: "AKURIENNE",
-    price: 25500,
+    price: 30500,
     description: "Double strap Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415410/5_wwodcj.jpg",
@@ -291,7 +291,7 @@ export const productsData = [
   {
     id: "14",
     name: "IKENGA",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock with Velcro",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415406/3_fxiqom.jpg",
@@ -313,7 +313,7 @@ export const productsData = [
   {
     id: "15",
     name: "CHINYELUGO",
-    price: 25500,
+    price: 30500,
     description: "Double strap Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415404/1_jjomu6.jpg",
@@ -496,7 +496,7 @@ export const productsData = [
   {
     id: "23",
     name: "EGO OYIBO",
-    price: 25500,
+    price: 30500,
     description: "Open toe Birken Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422505/13_rszfsi.jpg",
@@ -907,7 +907,7 @@ export const productsData = [
   {
     id: "40",
     name: "UGONNA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/1_n8jsnr.jpg",
@@ -932,7 +932,7 @@ export const productsData = [
   {
     id: "41",
     name: "ADAMMA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/2_fuoegf.jpg",
@@ -957,7 +957,7 @@ export const productsData = [
   {
     id: "42",
     name: "OKEOMA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/3_gk6y1q.jpg",
@@ -982,7 +982,7 @@ export const productsData = [
   {
     id: "43",
     name: "ADAEZE",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/4_ot73eu.jpg",
@@ -1007,7 +1007,7 @@ export const productsData = [
   {
     id: "44",
     name: "IJEOMA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/5_azyczq.jpg",
@@ -1032,7 +1032,7 @@ export const productsData = [
   {
     id: "45",
     name: "IRUOMA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650109/6_ubvxz6.jpg",
@@ -1057,7 +1057,7 @@ export const productsData = [
   {
     id: "46",
     name: "IKENNA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650110/7_bmcdmv.jpg",
@@ -1082,7 +1082,7 @@ export const productsData = [
   {
     id: "47",
     name: "ONAEDO",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650110/8_nkx8xc.jpg",
@@ -1107,7 +1107,7 @@ export const productsData = [
   {
     id: "48",
     name: "NWAMAKA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650111/9_xuai6k.jpg",
@@ -1132,7 +1132,7 @@ export const productsData = [
   {
     id: "49",
     name: "OBINNA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650121/10_hlxelc.jpg",
@@ -1157,7 +1157,7 @@ export const productsData = [
   {
     id: "50",
     name: "IKEMEFUNA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/11_njrli8.jpg",
@@ -1182,7 +1182,7 @@ export const productsData = [
   {
     id: "51",
     name: "NNAMDI",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/12_zkdwqs.jpg",
@@ -1207,7 +1207,7 @@ export const productsData = [
   {
     id: "52",
     name: "UCHENNA",
-    price: 9000,
+    price: 9500,
     description: "Comfortable and durable shoes designed for active children.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742650122/13_czhkzs.jpg",
@@ -1404,7 +1404,7 @@ export const productsData = [
   {
     id: "60",
     name: "NJEM",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/1_uaili9.jpg",
@@ -1427,7 +1427,7 @@ export const productsData = [
   {
     id: "61",
     name: "AKULUNO",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/2_nhlzy6.jpg",
@@ -1450,7 +1450,7 @@ export const productsData = [
   {
     id: "62",
     name: "OKWUDILI",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768836/3_jnw1bw.jpg",
@@ -1473,7 +1473,7 @@ export const productsData = [
   {
     id: "63",
     name: "EZUDO",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/4_lc0hhg.jpg",
@@ -1496,7 +1496,7 @@ export const productsData = [
   {
     id: "64",
     name: "MMADUKA",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/5_uqm5tt.jpg",
@@ -1519,7 +1519,7 @@ export const productsData = [
   {
     id: "65",
     name: "AZUBIKE",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/6_xoyblb.jpg",
@@ -1542,7 +1542,7 @@ export const productsData = [
   {
     id: "66",
     name: "ONYEOGAZILI",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/7_xexbtt.jpg",
@@ -1565,7 +1565,7 @@ export const productsData = [
   {
     id: "67",
     name: "UDUAKOMMIRI",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768837/8_s9hawp.jpg",
@@ -1588,7 +1588,7 @@ export const productsData = [
   {
     id: "68",
     name: "ONOCHIE",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/9_zrzejg.jpg",
@@ -1611,7 +1611,7 @@ export const productsData = [
   {
     id: "69",
     name: "MMIRIDOROEDO",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/10_cnjrnm.jpg",
@@ -1634,7 +1634,7 @@ export const productsData = [
   {
     id: "70",
     name: "OBIM",
-    price: 25500,
+    price: 30500,
     description: "Birkenstock",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742768838/11_nyojbt.jpg",
