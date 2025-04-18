@@ -108,7 +108,7 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
     }
 
     // 4000 for less than 4 items, 6000 for 4 or more
-    return totalItems < 4 ? 4000 : 6000;
+    return totalItems < 4 ? 1000 : 6000;
   };
 
   // Function to apply promo code
