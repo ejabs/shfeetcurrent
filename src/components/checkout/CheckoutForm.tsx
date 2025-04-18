@@ -37,7 +37,7 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
     const requiredFields = [
       "email",
       "fullName",
-      "address",
+      // "address",
       "city",
       "state",
       "phone",
@@ -185,7 +185,7 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
               />
             </div>
 
-            <div className="space-y-3 md:col-span-2">
+            {/* <div className="space-y-3 md:col-span-2">
               <Label htmlFor="address">Street Address *</Label>
               <Input
                 id="address"
@@ -193,7 +193,7 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
                 value={shippingAddress.address || ""}
                 onChange={(e) => handleAddressChange("address", e.target.value)}
               />
-            </div>
+            </div> */}
 
             <div className="space-y-3">
               <Label htmlFor="city">City *</Label>

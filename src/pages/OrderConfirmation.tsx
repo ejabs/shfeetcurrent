@@ -219,9 +219,9 @@ export default function OrderConfirmation() {
                             <p className="font-medium text-leather-800">
                               {orderData.shippingAddress.fullName}
                             </p>
-                            <p className="text-leather-600">
+                            {/* <p className="text-leather-600">
                               {orderData.shippingAddress.address}
-                            </p>
+                            </p> */}
                             <p className="text-leather-600">
                               {orderData.shippingAddress.city},{" "}
                               {orderData.shippingAddress.state},{" "}

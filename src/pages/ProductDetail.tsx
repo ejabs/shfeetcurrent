@@ -73,7 +73,7 @@ export default function ProductDetail() {
   return (
     <>
       <Helmet>
-        <title>{product.name} | Leatherly</title>
+        <title>{product.name} | SHFeet</title>
         <meta
           name="description"
           content={product.description.substring(0, 160)}
@@ -173,17 +173,31 @@ export default function ProductDetail() {
                 </div>
               </div>
 
-              {/* Quantity */}
+              {/* Quantity Selector */}
               <div className="mt-4">
                 <label className="text-sm font-medium">Quantity:</label>
-                <input
-                  type="number"
-                  value={quantity}
-                  onChange={(e) =>
-                    setQuantity(Math.max(1, parseInt(e.target.value) || 1))
-                  }
-                  className="border rounded w-16 p-1 ml-2"
-                />
+                <div className="flex items-center border border-gray-200 rounded-md mt-2 w-fit">
+                  <button
+                    type="button"
+                    className="h-8 w-8 flex items-center justify-center rounded-l-md text-gray-700 hover:bg-gray-100 disabled:opacity-50"
+                    onClick={() => setQuantity((prev) => Math.max(1, prev - 1))}
+                    disabled={quantity <= 1}
+                    aria-label="Decrease quantity"
+                  >
+                    -
+                  </button>
+                  <span className="w-10 text-center text-gray-800 border-x border-gray-200">
+                    {quantity}
+                  </span>
+                  <button
+                    type="button"
+                    className="h-8 w-8 flex items-center justify-center rounded-r-md text-gray-700 hover:bg-gray-100"
+                    onClick={() => setQuantity((prev) => prev + 1)}
+                    aria-label="Increase quantity"
+                  >
+                    +
+                  </button>
+                </div>
               </div>
 
               {/* Buttons */}
