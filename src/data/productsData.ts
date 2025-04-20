@@ -93,7 +93,7 @@ export const productsData = [
   {
     id: "5",
     name: "EZEBUDE",
-    price: 40500,
+    price: 50500,
     description: "Oxford with Sass",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1732801132/BeauToday_Chunky_Brogue_Shoes_for_Men_fkp79y.jpg",
@@ -115,7 +115,7 @@ export const productsData = [
   {
     id: "6",
     name: "IJELE",
-    price: 40500,
+    price: 50500,
     description: "Loafers with Fringes",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415400/14_jyf4vd.jpg",
@@ -137,7 +137,7 @@ export const productsData = [
   {
     id: "7",
     name: "DAKWASIENYI",
-    price: 40500,
+    price: 50500,
     description: "Basket print Brogues",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735415400/13_hlaugz.jpg",
@@ -2018,7 +2018,7 @@ export const productsData = [
   {
     id: 88,
     name: "OJELUORA",
-    price: 40500,
+    price: 50500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1745006394/6_l7ewc9.jpg",
@@ -2041,7 +2041,7 @@ export const productsData = [
   {
     id: 89,
     name: "OBATAOBIE",
-    price: 40500,
+    price: 50500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1745006395/7_nzhbm2.jpg",
@@ -2064,7 +2064,7 @@ export const productsData = [
   {
     id: 90,
     name: "ODENIGBO",
-    price: 40500,
+    price: 50500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1745006394/8_arncts.jpg",

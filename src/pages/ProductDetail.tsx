@@ -86,7 +86,7 @@ export default function ProductDetail() {
           <div className="mb-6 flex">
             <Link
               to="/products"
-              className="px-2 py-2 rounded-lg tracking-tighter bg-white/10 backdrop-blur-md text-black text-sm font-medium shadow-md transition-all hover:bg-white/20 hover:shadow-lg border border-black/20"
+              className="px-2 py-2 rounded-lg tracking-tighter bg-white backdrop-blur-md text-black text-sm font-medium shadow-md transition-all hover:bg-white/80 hover:shadow-lg hover:text-black border border-black/20"
             >
               ← Back
             </Link>
@@ -221,6 +221,13 @@ export default function ProductDetail() {
                   Buy Now
                 </Button>
               </div>
+
+              {/* Size Note */}
+              <p className="text-sm text-gray-600 mt-2">
+                <strong>Note:</strong> If you're uncertain about your size or
+                your fit tends to run snug, we recommend selecting the next size
+                up for a more comfortable fit.
+              </p>
             </div>
           </div>
 
