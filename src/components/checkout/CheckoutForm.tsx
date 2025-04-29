@@ -37,11 +37,16 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
     const requiredFields = [
       "email",
       "fullName",
-      // "address",
       "city",
       "state",
       "phone",
     ] as const;
+
+    // Add address to required fields only if state is abuja
+    if (shippingAddress.state === "abuja") {
+      requiredFields.push("address");
+    }
+
     const missingFields = requiredFields.filter(
       (field) => !shippingAddress[field]
     );
@@ -62,7 +67,7 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
   const paystackConfig = {
     reference: `ORD${Math.floor(100000 + Math.random() * 900000)}`,
     email: shippingAddress.email || "",
-    amount: (totalAfterDiscount || total) * 100, // Use discounted total if available
+    amount: (totalAfterDiscount || total) * 100,
     publicKey: import.meta.env.VITE_PAYSTACK_PUBLIC_KEY,
     currency: "NGN",
     onSuccess: () => {
@@ -78,7 +83,7 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
           subtotal,
           deliveryFee,
           total: totalAfterDiscount || total,
-          ...(discount && { discount }), // Only include discount if it exists
+          ...(discount && { discount }),
           totalAfterDiscount: totalAfterDiscount || total,
           shippingAddress: { ...shippingAddress, country: "Nigeria" },
         },
@@ -185,15 +190,20 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
               />
             </div>
 
-            {/* <div className="space-y-3 md:col-span-2">
-              <Label htmlFor="address">Street Address *</Label>
-              <Input
-                id="address"
-                placeholder="123 Main Street"
-                value={shippingAddress.address || ""}
-                onChange={(e) => handleAddressChange("address", e.target.value)}
-              />
-            </div> */}
+            {/* Address field - only shown when state is abuja */}
+            {shippingAddress.state === "abuja" && (
+              <div className="space-y-3 md:col-span-2">
+                <Label htmlFor="address">Street Address *</Label>
+                <Input
+                  id="address"
+                  placeholder="123 Main Street"
+                  value={shippingAddress.address || ""}
+                  onChange={(e) =>
+                    handleAddressChange("address", e.target.value)
+                  }
+                />
+              </div>
+            )}
 
             <div className="space-y-3">
               <Label htmlFor="city">City *</Label>
@@ -248,7 +258,6 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
           <h2 className="text-xl font-medium">Payment Information</h2>
 
           <div className="bg-leather-50 rounded-md p-6 mb-6">
-            {/* Always show subtotal */}
             <div className="flex justify-between items-center mb-2">
               <span className="text-leather-700">Subtotal:</span>
               <span className="text-leather-900">
@@ -256,7 +265,6 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
               </span>
             </div>
 
-            {/* Only show discount if it exists */}
             {discount > 0 && (
               <div className="flex justify-between items-center mb-2">
                 <span className="text-leather-700">Discount:</span>
@@ -266,7 +274,6 @@ export function CheckoutForm({ items }: CheckoutFormProps) {
               </div>
             )}
 
-            {/* Keep the rest unchanged */}
             <div className="flex justify-between items-center mb-2">
               <span className="text-leather-700">Delivery Fee:</span>
               <span className="text-leather-900">

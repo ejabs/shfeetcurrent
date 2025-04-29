@@ -3,198 +3,317 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Coming Soon</title>
+    <title>SHFeet | Handmade Footwear Crafted for Comfort & Style</title>
+    <meta
+      name="description"
+      content="Step into timeless comfort and style with SH FEET. Our handcrafted footwear is uniquely designed for elegance, durability, and all-day wearability. Explore our premium collection of bespoke shoes today!"
+    />
+    <meta
+      name="keywords"
+      content="handmade footwear, bespoke shoes, custom sandals, leather shoes, SH FEET, shfeet, SHFEET, sh_feet, SH_FEET,  sustainable footwear, comfortable shoes, stylish footwear, abuja footwear, nigerian footwear, nigerian shoes"
+    />
+    <meta name="author" content="SH FEET Team" />
+
+    <!-- Open Graph / Facebook -->
+    <meta
+      property="og:title"
+      content="SH FEET | Handmade Footwear Crafted for Comfort & Style"
+    />
+    <meta
+      property="og:description"
+      content="Elevate your style with SH FEET's handcrafted footwear. Every pair is designed to combine art, comfort, and sophistication. Discover our collection!"
+    />
+    <meta
+      property="og:image"
+      content="https://res.cloudinary.com/daxeovezx/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/v1732570642/shfeet_logo_l2iun6.jpg"
+    />
+    <meta property="og:url" content="https://shfeet.com.ng" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="SH FEET" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="SH FEET | Handmade Footwear Crafted for Comfort & Style"
+    />
+    <meta
+      name="twitter:description"
+      content="Experience unmatched elegance and comfort with SH FEET's bespoke footwear. Explore our range of handcrafted shoes today!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://res.cloudinary.com/daxeovezx/image/upload/w_1200,h_630,c_fill,q_auto,f_auto/v1732570642/shfeet_logo_l2iun6.jpg"
+    />
+
+    <!-- Additional Meta for Enhanced SEO -->
+    <link rel="canonical" href="https://shfeet.com.ng" />
+    <meta name="distribution" content="global" />
+    <meta name="rating" content="general" />
+    <meta name="subject" content="Handmade Footwear" />
+    <meta name="revisit-after" content="7 days" />
+
+    <!-- Birthday Modal Styles -->
     <style>
-      body {
-        margin: 0;
-        padding: 0;
-        min-height: 100vh;
-        display: flex;
+      /* Prevent scrolling when modal is open */
+      body.modal-open {
+        overflow: hidden;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+      }
+
+      .birthday-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.7);
+        z-index: 1000;
         justify-content: center;
         align-items: center;
-        background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
-        overflow: hidden;
-        font-family: "Arial", sans-serif;
-        color: white;
-        flex-direction: column;
+        animation: fadeIn 0.5s ease-out;
       }
 
-      .coming-soon {
-        position: relative;
+      .modal-content {
+        background: linear-gradient(135deg, #ff9a9e 0%, #fad0c4 100%);
+        padding: 2rem;
+        border-radius: 15px;
+        width: 90%;
+        max-width: 500px;
         text-align: center;
-        padding: 20px;
-        box-sizing: border-box;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        position: relative;
+        overflow: hidden;
+        z-index: 1002; /* Above confetti */
       }
 
-      .logo {
-        margin-bottom: 20px;
+      .confetti {
+        position: fixed;
+        opacity: 0.7;
+        pointer-events: none;
+        z-index: 1001;
       }
 
-      .logo img {
-        max-width: 150px;
-        height: auto;
+      .modal-title {
+        color: #d23669;
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        font-family: "Arial", sans-serif;
       }
 
-      .diagonal-text {
-        font-size: 7vw;
-        font-weight: 900;
-        color: rgba(255, 255, 255, 0.8);
-        text-transform: uppercase;
-        letter-spacing: 0.5em;
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
-        animation: pulse 3s ease-in-out infinite;
-        white-space: nowrap;
+      .modal-text {
+        color: #555;
+        font-size: 1.1rem;
+        margin-bottom: 1.5rem;
       }
 
-      .maintenance-text {
-        margin-top: 20px;
-        font-size: 1.2rem;
-        letter-spacing: 0.1em;
-        color: rgba(255, 255, 255, 0.7);
-      }
-
-      .countdown {
-        margin-top: 20px;
-        font-size: 1.5rem;
+      .close-btn {
+        background-color: #d23669;
+        color: white;
+        border: none;
+        padding: 0.7rem 1.5rem;
+        border-radius: 50px;
+        cursor: pointer;
         font-weight: bold;
-        color: #ffffff;
+        transition: all 0.3s ease;
       }
 
-      .social-media {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-        gap: 20px;
+      .close-btn:hover {
+        background-color: #a5274a;
+        transform: scale(1.05);
       }
 
-      .social-media a {
-        color: #ffffff;
-        text-decoration: none;
-        font-size: 1.2rem;
-        transition: color 0.3s;
-      }
-
-      .social-media a:hover {
-        color: #f39c12;
-      }
-
-      .corner-decoration {
-        position: absolute;
-        width: 150px;
-        height: 150px;
-        border: 2px solid rgba(255, 255, 255, 0.1);
-        animation: float 4s ease-in-out infinite;
-      }
-
-      .top-left {
-        top: 30px;
-        left: 30px;
-        border-right: none;
-        border-bottom: none;
-      }
-
-      .bottom-right {
-        bottom: 30px;
-        right: 30px;
-        border-left: none;
-        border-top: none;
-      }
-
-      @keyframes pulse {
-        0%,
-        100% {
-          opacity: 0.8;
-          text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+      @keyframes fadeIn {
+        from {
+          opacity: 0;
         }
-        50 {
+        to {
           opacity: 1;
-          text-shadow: 0 0 20px rgba(255, 255, 255, 0.6);
         }
       }
 
-      @keyframes float {
+      @keyframes bounce {
         0%,
         100% {
           transform: translateY(0);
         }
         50% {
-          transform: translateY(-10px);
+          transform: translateY(-20px);
         }
       }
 
-      @media (max-width: 768px) {
-        .diagonal-text {
-          font-size: 8vw;
-          letter-spacing: 0.3em;
-        }
-        .corner-decoration {
-          width: 100px;
-          height: 100px;
-        }
+      .cake-emoji {
+        font-size: 4rem;
+        display: inline-block;
+        animation: bounce 1.5s infinite;
       }
 
-      @media (max-width: 480px) {
-        .diagonal-text {
-          font-size: 7vw;
+      /* Responsive adjustments */
+      @media (max-width: 600px) {
+        .modal-content {
+          padding: 1.5rem;
         }
-        .corner-decoration {
-          width: 80px;
-          height: 80px;
+
+        .modal-title {
+          font-size: 1.5rem;
+        }
+
+        .cake-emoji {
+          font-size: 3rem;
         }
       }
     </style>
   </head>
+
   <body>
-    <div class="coming-soon">
-      <div class="corner-decoration top-left"></div>
-      <div class="corner-decoration bottom-right"></div>
-
-      <div class="logo">
-        <img
-          src="https://res.cloudinary.com/daxeovezx/image/upload/v1732570642/shfeet_logo_l2iun6.jpg"
-          alt="Shfeet Logo"
-        />
-      </div>
-
-      <div class="diagonal-text">Coming Soon</div>
-
-      <div class="maintenance-text">Our website is under maintenance</div>
-
-      <div class="countdown" id="countdown">Loading countdown...</div>
-
-      <div class="social-media">
-        <a href="https://instagram.com/shfeet_official" target="_blank"
-          >Instagram</a
-        >
-        <a href="https://tiktok.com/@shfeetofficial" target="_blank">TikTok</a>
+    <!-- Birthday Modal -->
+    <div id="birthdayModal" class="birthday-modal">
+      <div class="modal-content">
+        <div class="cake-emoji">🎂</div>
+        <h2 class="modal-title">Happy Birthday to Our CEO!</h2>
+        <p class="modal-text">
+          Today we celebrate the visionary leader who makes everything possible.
+          Wishing you a fantastic year ahead!
+        </p>
+        <button class="close-btn" onclick="closeModal()">
+          Continue to Site
+        </button>
       </div>
     </div>
 
+    <div id="root"></div>
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script type="module" src="/src/main.tsx"></script>
+
+    <!-- Birthday Modal Script -->
     <script>
-      const countdownElement = document.getElementById("countdown");
-      const targetDate = new Date("2025-04-30T00:00:00").getTime();
+      // Show modal when page loads
+      document.addEventListener("DOMContentLoaded", function () {
+        // FOR TESTING: Uncomment next line to force show modal
+        // const forceShow = true;
 
-      const updateCountdown = () => {
-        const now = new Date().getTime();
-        const distance = targetDate - now;
+        // Check if it's April 30th (month 3 in JavaScript)
+        const today = new Date();
+        if (today.getMonth() === 3 && today.getDate() === 30) {
+          // if (forceShow || (today.getMonth() === 3 && today.getDate() === 30)) { // For testing
+          // Prevent scrolling
+          document.body.classList.add("modal-open");
 
-        if (distance < 0) {
-          countdownElement.innerHTML = "We're live!";
-          return;
+          const modal = document.getElementById("birthdayModal");
+          modal.style.display = "flex";
+
+          // Create 300 confetti pieces for full-screen effect
+          createConfetti(300);
+
+          // Auto-remove confetti after 4 seconds
+          setTimeout(() => {
+            const allConfetti = document.querySelectorAll(".confetti");
+            allConfetti.forEach((confetti) => confetti.remove());
+          }, 4000);
+
+          // Set cookie to show only once per day
+          if (!document.cookie.includes("birthdayModalShown=true")) {
+            document.cookie = "birthdayModalShown=true; max-age=86400; path=/";
+          }
         }
+      });
 
-        const days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        const hours = Math.floor(
-          (distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-        );
-        const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+      function closeModal() {
+        document.getElementById("birthdayModal").style.display = "none";
+        // Re-enable scrolling
+        document.body.classList.remove("modal-open");
+      }
 
-        countdownElement.innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
-      };
+      function createConfetti(count = 300) {
+        const colors = [
+          "#f44336",
+          "#e91e63",
+          "#9c27b0",
+          "#673ab7",
+          "#3f51b5",
+          "#2196f3",
+          "#03a9f4",
+          "#00bcd4",
+          "#009688",
+          "#4CAF50",
+          "#FFEB3B",
+          "#FFC107",
+          "#FF9800",
+          "#FF5722",
+        ];
 
-      setInterval(updateCountdown, 1000);
-      updateCountdown();
+        for (let i = 0; i < count; i++) {
+          const confetti = document.createElement("div");
+          confetti.className = "confetti";
+          confetti.style.backgroundColor =
+            colors[Math.floor(Math.random() * colors.length)];
+
+          // Evenly distribute across the whole screen
+          confetti.style.left = Math.random() * 100 + "vw"; // Spread horizontally
+          confetti.style.top = Math.random() * 100 + "vh"; // Spread vertically
+
+          // Random rotation
+          confetti.style.transform = "rotate(" + Math.random() * 360 + "deg)";
+
+          // Create different shapes
+          if (Math.random() > 0.7) {
+            // Ribbon shape (30% chance)
+            confetti.style.width = Math.random() * 25 + 15 + "px";
+            confetti.style.height = "4px";
+            confetti.style.borderRadius = "2px";
+          } else if (Math.random() > 0.5) {
+            // Circle shape (30% chance)
+            const size = Math.random() * 12 + 6;
+            confetti.style.width = size + "px";
+            confetti.style.height = size + "px";
+            confetti.style.borderRadius = "50%";
+          } else {
+            // Square shape (40% chance)
+            const size = Math.random() * 12 + 6;
+            confetti.style.width = size + "px";
+            confetti.style.height = size + "px";
+          }
+
+          document.body.appendChild(confetti);
+
+          // Improved animation with more horizontal movement
+          animateConfetti(confetti, Math.random() > 0.5 ? 1 : -1);
+        }
+      }
+
+      function animateConfetti(element, direction) {
+        const startTime = Date.now();
+        const duration = Math.random() * 3000 + 2000; // 2-5 seconds
+        const startX = parseFloat(element.style.left);
+        const endX = startX + Math.random() * 150 * direction; // More horizontal spread
+
+        // Start at different times for better distribution
+        const startDelay = Math.random() * 1000;
+
+        setTimeout(() => {
+          function update() {
+            const elapsed = Date.now() - startTime - startDelay;
+            const progress = elapsed / duration;
+
+            if (progress < 1) {
+              element.style.top = progress * 100 + 10 + "vh";
+              element.style.left = startX + (endX - startX) * progress + "px";
+              element.style.opacity = 1 - progress * 0.8;
+              element.style.transform = `rotate(${progress * 360 * 3}deg)`;
+              requestAnimationFrame(update);
+            } else {
+              element.remove();
+            }
+          }
+
+          requestAnimationFrame(update);
+        }, startDelay);
+      }
     </script>
   </body>
 </html>
