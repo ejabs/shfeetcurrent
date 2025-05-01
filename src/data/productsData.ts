@@ -2,7 +2,7 @@ export const productsData = [
   {
     id: "1",
     name: "OPURUICHE 1.0",
-    price: 15500,
+    price: 18500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -472,7 +472,7 @@ export const productsData = [
   {
     id: "22",
     name: "ASAMMA",
-    price: 15500,
+    price: 18500,
     description: "Denim X-Strap",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422509/12_rumqfa.jpg",
@@ -712,7 +712,7 @@ export const productsData = [
   {
     id: 32,
     name: "EGODI",
-    price: 15500,
+    price: 18500,
     description: "Scissors cut Platform",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/15_u6c27r.jpg",
@@ -808,7 +808,7 @@ export const productsData = [
   {
     id: 36,
     name: "OPURUICHE 2.0",
-    price: 15500,
+    price: 18500,
     description: "Bow Platform Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1735422485/1_qkcwxe.jpg",
@@ -1658,7 +1658,7 @@ export const productsData = [
   {
     id: "71",
     name: "URUNDU",
-    price: 15500,
+    price: 18500,
     description: "durable soles and comfortable fit.",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1742770644/4_qpdpbz.jpg",
@@ -1681,7 +1681,7 @@ export const productsData = [
   {
     id: "72",
     name: "OLAMMA",
-    price: 15500,
+    price: 18500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -1705,7 +1705,7 @@ export const productsData = [
   {
     id: "73",
     name: "EZINNE",
-    price: 15500,
+    price: 18500,
     description:
       "Handcrafted leather sandals with durable soles and comfortable fit.",
     images: [
@@ -1880,7 +1880,7 @@ export const productsData = [
   {
     id: 81,
     name: "OBIM 2.0",
-    price: 15500,
+    price: 18500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097621/m2_uxx7g8.jpg",
@@ -1903,7 +1903,7 @@ export const productsData = [
   {
     id: 82,
     name: "IKEBUDE",
-    price: 15500,
+    price: 18500,
     description: "Denim open toe Slide",
     images: [
       "https://res.cloudinary.com/daxeovezx/image/upload/v1743097620/m1_lhpbl6.jpg",
@@ -2107,5 +2107,241 @@ export const productsData = [
     featured: false,
     inStock: true,
     ratings: 4.6,
+  },
+
+  {
+    id: 92,
+    name: "UGONNA",
+    price: 12500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110489/8_hwr66w.jpg",
+    ],
+    category: "slides",
+    forWhom: "women",
+    sizes: ["36", "37", "38", "39", "40", "41", "42", "43"],
+
+    colors: [
+      { name: "Gold", value: "#FFD700" },
+      { name: "Pink", value: "#FFC0CB" },
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Blue", value: "#0000FF" },
+      { name: "White", value: "#FFFFFF" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 93,
+    name: "NWAMMA",
+    price: 12500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110489/10_ufgxzv.jpg",
+    ],
+    category: "slides",
+    forWhom: "women",
+    sizes: ["36", "37", "38", "39", "40", "41", "42", "43"],
+
+    colors: [
+      { name: "Gold", value: "#FFD700" },
+      { name: "Pink", value: "#FFC0CB" },
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Blue", value: "#0000FF" },
+      { name: "White", value: "#FFFFFF" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 94,
+    name: "NDUKA",
+    price: 35500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1745006394/2_zv4p8j.jpg",
+    ],
+    category: "half-shoes",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 95,
+    name: "NNABUENYI",
+    price: 18500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110488/4_nurteg.jpg",
+    ],
+    category: "slides",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 96,
+    name: "UCHEAGU",
+    price: 18500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110488/5_kclbuz.jpg",
+    ],
+    category: "slides",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 97,
+    name: "OKUTALUKWE",
+    price: 18500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110487/1_vhmx01.jpg",
+    ],
+    category: "slides",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 98,
+    name: "UCHEAGHA",
+    price: 18500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110487/3_ig867u.jpg",
+    ],
+    category: "slides",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 99,
+    name: "NWABUNNIA",
+    price: 18500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110487/2_h7zdlr.jpg",
+    ],
+    category: "slides",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: 100,
+    name: "CHINENYE",
+    price: 12500,
+    description: "Denim open toe Slide",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1746110489/9_zkgarc.jpg",
+    ],
+    category: "slides",
+    forWhom: "women",
+    sizes: ["36", "37", "38", "39", "40", "41", "42", "43"],
+
+    colors: [
+      { name: "Gold", value: "#FFD700" },
+      { name: "Pink", value: "#FFC0CB" },
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Blue", value: "#0000FF" },
+      { name: "White", value: "#FFFFFF" },
+    ],
+    featured: false,
+    inStock: true,
+    ratings: 4.6,
+  },
+
+  {
+    id: "101",
+    name: "OKEOMA",
+    price: 30500,
+    description: "Birkenstock with Velcro",
+    images: [
+      "https://res.cloudinary.com/daxeovezx/image/upload/v1735415406/3_fxiqom.jpg",
+    ],
+    category: "birkenstock",
+    forWhom: "men",
+    sizes: ["40", "41", "42", "43", "44", "45", "46"],
+    colors: [
+      { name: "Brown", value: "#8B4513" },
+      { name: "Black", value: "#000000" },
+      { name: "Navy Blue", value: "#000080" },
+      { name: "White", value: "#FFFFFF" },
+      { name: "Tan", value: "#D2B48C" },
+    ],
+    featured: true,
+    inStock: true,
+    ratings: 4.8,
   },
 ];
